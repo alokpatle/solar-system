@@ -7,7 +7,7 @@ on:
       - main
       - 'feature/*'
 env:
-    MONGO_URL: 'mongodb+srv://alokpatle90:AnDco1yYXjUfW9iB@cluster0.fjrim3m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+    MONGO_URI: 'mongodb+srv://alokpatle90:AnDco1yYXjUfW9iB@cluster0.fjrim3m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
     MONGO_USERNAME: ${{ vars.MONGO_USERNAME }}
     MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
 jobs:
